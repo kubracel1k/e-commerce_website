@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+  <title>Shop Page</title>
+  <link href="./style.css" rel="stylesheet" />
+  <link href="./assets" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+</head>
+
+<body>
+  <!--navbar-->
+  <div class="slidenav">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar slidenav">
+            <div class="container-fluid">
+              <button class="toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="navbar-toggler-icon" width="16" height="16"
+                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                  </svg>
+                </span>
+              </button>
+              <div class="col">
+                <div class="slidenav navimg">
+                  <img src="./assets/image/Logo.svg" />
+                </div>
+              </div>
+
+              <div class="">
+                <form class="d-flex">
+                  <input id="header-search-input" class="form-control me-2 slidenav search-control" type="search"
+                    placeholder="Search For Product..." aria-label="Search " />
+                  <button class="btn toggler search" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-search" viewBox="0 0 16 16">
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                  </button>
+                </form>
+              </div>
+              <div class="basket">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+              </div>
+            </div>
+          </nav>
+
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="slidenav">
+              <ul class="navbarlist-menu navbarbutton-list" aria-labelledby="dropdownMenuButton">
+                <li><a class="navbarlist" href="index.html">Home</a></li>
+                <li><a class="navbarlist" href="shoppage.html">Shop</a></li>
+                <li><a class="navbarlist" href="about.html">About</a></li>
+                <li><a class="navbarlist" href="accountpage.html">Account</a></li>
+                <li><a class="navbarlist" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--slider-->
+  <div class="categories__container shoppage-slider">
+    <div class="slide__categories prev">
+      <i class="fa-solid fa-angle-left"></i>
+    </div>
+    <div class="categories__item">
+      <div class="img-container">
+        <img src="./assets/image/pic6.jpg" height="180" width="180" />
+      </div>
+      <a href="productdetails.html" style="text-decoration: none; color:#eeeeee;">
+        <h3>Women</h3>
+      </a>
+    </div>
+    <div class="categories__item">
+      <div class="img-container">
+        <img src="./assets/image/pic7.jpg" height="180" width="180" />
+      </div>
+      <a href="productdetails.html" style="text-decoration: none; color:#eeeeee;">
+        <h3>New Arrivals</h3>
+      </a>
+    </div>
+    <div class="categories__item">
+      <div class="img-container">
+        <img src="./assets/image/pic1.jpg" height="180" width="180" />
+      </div>
+      <a href="productdetails.html" style="text-decoration: none; color:#eeeeee;">
+        <h3>Men</h3>
+      </a>
+    </div>
+    <div class="categories__item">
+      <div class="img-container">
+        <img src="./assets/image/pic3.jpg" height="180" width="180" />
+      </div>
+      <a href="productdetails.html" style="text-decoration: none; color:#eeeeee;">
+        <h3>Life Style</h3>
+      </a>
+    </div>
+    <div class="slide__categories next">
+      <i class="fa-solid fa-angle-right"></i>
+    </div>
+  </div>
+  <!--sidebar-->
+  <div class="category">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <aside class="side-area product-side side-shadow mt-5">
+            <div class="side-title">
+              <h3>CATEGORIES</h3>
+            </div>
+            <div class="side-content">
+              <ul class="list">
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">New Arrivals</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Top Rate</a>
+                </li>
+              </ul>
+            </div>
+            <div class="side-title mt-4">
+              <h3>SORT BY</h3>
+            </div>
+            <div class="side-content">
+              <ul class="list">
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Featured</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Best Selling</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Alphabetically, A-Z</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Alphabetically, Z-A</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Price, Low To Hight</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Price, Hight To Low</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Date, New To Old</a>
+                </li>
+                <li>
+                  <input type="radio" aria-label="radio button" />
+                  <a href="" style="text-decoration: none">Date, Old To New</a>
+                </li>
+              </ul>
+            </div>
+            <div class="side-title mt-4">
+              <h3>COLOR</h3>
+            </div>
+            <div class="side-color">
+              <div class="item">
+                <div class="color-style bg-orange"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-orangered"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-black"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-yellow"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-blue"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-yellowgreen"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-gray"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-red"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-aqua"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-green"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-pink"></div>
+              </div>
+              <div class="item">
+                <div class="color-style bg-plum"></div>
+              </div>
+            </div>
+            <script>
+              const colorStyleEls = document.querySelectorAll(".color-style");
+              colorStyleEls.forEach(item => {
+                item.addEventListener("click", (event) => {
+                  event.target.classList.toggle("active");
+                });
+              });
+            </script>
+            <div class="side-title mt-4">
+              <h3>SIZE</h3>
+            </div>
+            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked />
+            <label class="btn btn-secondary color-size" for="option1">S</label>
+
+            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+            <label class="btn btn-secondary color-size" for="option2">M</label>
+
+            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" disabled />
+            <label class="btn btn-secondary color-size" for="option3">L</label>
+
+            <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off" />
+            <label class="btn btn-secondary color-size" for="option4">XL</label>
+            <div class="side-title mt-4">
+              <h3>PRICE</h3>
+            </div>
+
+            <input type="range" class="form-range" id="customRange1">
+          </aside>
+        </div>
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class=" d-flex justify-content-between align-items-center product-top">
+                <div class="product-sec ">
+                  <h2>Filter</h2>
+                </div>
+                <div class="d-flex justify-content-end align-items-center ">
+                  <select class="form-select " aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">Alphabetically,A-Z</option>
+                    <option value="2">Azalan Fiyat</option>
+                    <option value="3">Artan Fiyat</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row property_gallery mt-5">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class=" product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic1.jpg">
+                  <div class="label new">New</div>
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic2.jpg">
+                  <div class="label new">New</div>
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic3.jpg">
+                  <div class="label new">New</div>
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic4.jpg">
+                  <div class="label new">New</div>
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic5.jpg">
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic3.jpg">
+                  <div class="label new">New</div>
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="product_item">
+                <div class="product_item_pic">
+                  <img class="product_pic" src="./assets/image/pic2.jpg">
+                  <ul class="product_hover">
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-heart-fill"></i></a></li>
+                    <li style="list-style: none;"><a href="#"><i class="bi bi-bag-fill"></i></a></li>
+                  </ul>
+                </div>
+                <div class="product_item_text">
+                  <h6><a href="productdetails.html">Woman shoes</a></h6>
+                  <div class="rating">
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="product_price">$60</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer kısmı-->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container my-" style="background-color: #eeeeee;">
+
+    <footer class="text-center text-lg-start  mt-xl-5 pt-4">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+
+
+            <ul class="list-unstyled footer-altta ">
+              <li>
+                <img src="./assets/image/Logo.svg" class="text-center li-footer">
+              </li>
+              <li>
+                <a href="#!" class="text-center li-footer">Altta Max. </a>
+              </li>
+              <li>
+                <a href="#!" class="text-center li-footer">MINIMAL SHOP</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class=" mb-4">Our Company</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="li-footer">About us</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">Our Studio</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">Careers</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">Community</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">Stroy Locations</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class=" mb-4">Customer Support</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="li-footer">The Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">contact Us</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">FAQs</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">Order Treking</a>
+              </li>
+              <li>
+                <a href="#!" class="li-footer">shipping & Returns</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class=" mb-4">Newsletter</h5>
+
+            <div class="form-outline form-white mb-4">
+              <button class="footer-email-btn">
+                <input type="email" id="exampleFormControlInput1" placeholder="Enter Your Email To Subscribe*"
+                  class="footer-email">
+              </button>
+
+            </div>
+            <!-- Section: Social media -->
+            <section class="mb-4 t">
+              <!-- Facebook -->
+              <a class="btn-social btn-outline-light-social btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-facebook"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn-social btn-outline-light-social btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-twitter"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn-social btn-outline-light-social btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn-social btn-outline-light-social btn-floating m-1" href="#!" role="button"><i
+                  class="bi bi-linkedin"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+          </div>
+
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="container">
+    <div class="row justify-content-center mt-3">
+      ©2019 Altta Max. All rights reserved
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
